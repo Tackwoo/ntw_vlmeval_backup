@@ -1,0 +1,132 @@
+DEVICE=3
+MODEL="llava-1.5-7b"
+DATASET="MME"
+MODE="all"
+VERBOSE="--verbose"
+
+
+
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/3 --fixed_skip_layer 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/4 --fixed_skip_layer 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/5 --fixed_skip_layer 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/6 --fixed_skip_layer 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/7 --fixed_skip_layer 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/8 --fixed_skip_layer 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/9 --fixed_skip_layer 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/10 --fixed_skip_layer 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/11 --fixed_skip_layer 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/12 --fixed_skip_layer 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/13 --fixed_skip_layer 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/14 --fixed_skip_layer 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/15 --fixed_skip_layer 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/16 --fixed_skip_layer 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/17 --fixed_skip_layer 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/18 --fixed_skip_layer 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/19 --fixed_skip_layer 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/20 --fixed_skip_layer 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/21 --fixed_skip_layer 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/22 --fixed_skip_layer 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/23 --fixed_skip_layer 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/24 --fixed_skip_layer 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/25 --fixed_skip_layer 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/26 --fixed_skip_layer 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/27 --fixed_skip_layer 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031/28 --fixed_skip_layer 28 $VERBOSE
+
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/28 --fixed_skip_layer 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/27 --fixed_skip_layer 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/26 --fixed_skip_layer 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/25 --fixed_skip_layer 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/24 --fixed_skip_layer 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/23 --fixed_skip_layer 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/22 --fixed_skip_layer 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/21 --fixed_skip_layer 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/20 --fixed_skip_layer 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/19 --fixed_skip_layer 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/18 --fixed_skip_layer 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/17 --fixed_skip_layer 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/16 --fixed_skip_layer 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/15 --fixed_skip_layer 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/14 --fixed_skip_layer 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/13 --fixed_skip_layer 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/12 --fixed_skip_layer 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/11 --fixed_skip_layer 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/10 --fixed_skip_layer 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/9 --fixed_skip_layer 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/8 --fixed_skip_layer 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/7 --fixed_skip_layer 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/6 --fixed_skip_layer 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/5 --fixed_skip_layer 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/4 --fixed_skip_layer 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mme/unskip_012_293031_i/3 --fixed_skip_layer 3 $VERBOSE
+
+
+DEVICE=3
+MODEL="llava-1.5-7b"
+DATASET="MMBench_DEV_EN"
+MODE="all"
+VERBOSE="--verbose"
+
+
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/3 --fixed_skip_layer 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/4 --fixed_skip_layer 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/5 --fixed_skip_layer 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/6 --fixed_skip_layer 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/7 --fixed_skip_layer 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/8 --fixed_skip_layer 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/9 --fixed_skip_layer 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/10 --fixed_skip_layer 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/11 --fixed_skip_layer 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/12 --fixed_skip_layer 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/13 --fixed_skip_layer 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/14 --fixed_skip_layer 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/15 --fixed_skip_layer 15 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/16 --fixed_skip_layer 16 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/17 --fixed_skip_layer 17 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/18 --fixed_skip_layer 18 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/19 --fixed_skip_layer 19 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/20 --fixed_skip_layer 20 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/21 --fixed_skip_layer 21 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/22 --fixed_skip_layer 22 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/23 --fixed_skip_layer 23 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/24 --fixed_skip_layer 24 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/25 --fixed_skip_layer 25 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/26 --fixed_skip_layer 26 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/27 --fixed_skip_layer 27 28 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031/28 --fixed_skip_layer 28 $VERBOSE
+
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/28 --fixed_skip_layer 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/27 --fixed_skip_layer 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/26 --fixed_skip_layer 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/25 --fixed_skip_layer 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/24 --fixed_skip_layer 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/23 --fixed_skip_layer 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/22 --fixed_skip_layer 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/21 --fixed_skip_layer 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/20 --fixed_skip_layer 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/19 --fixed_skip_layer 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/18 --fixed_skip_layer 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/17 --fixed_skip_layer 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/16 --fixed_skip_layer 16 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/15 --fixed_skip_layer 15 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/14 --fixed_skip_layer 14 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/13 --fixed_skip_layer 13 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/12 --fixed_skip_layer 12 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/11 --fixed_skip_layer 11 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/10 --fixed_skip_layer 10 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/9 --fixed_skip_layer 9 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/8 --fixed_skip_layer 8 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/7 --fixed_skip_layer 7 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/6 --fixed_skip_layer 6 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/5 --fixed_skip_layer 5 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/4 --fixed_skip_layer 4 3 $VERBOSE
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/mmbench/unskip_012_293031_i/3 --fixed_skip_layer 3 $VERBOSE
+
+
+DEVICE=3
+MODEL="llava-1.5-7b"
+DATASET="COCO_VAL"
+MODE="all"
+VERBOSE="--verbose"
+
+CUDA_VISIBLE_DEVICES=$DEVICE python run.py --model $MODEL --data $DATASET --mode $MODE --work-dir output/coco/baseline $VERBOSE
